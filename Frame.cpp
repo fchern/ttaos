@@ -22,7 +22,7 @@
 #include "../structs/MarketDataTouchStruct.h"
 #include "../structs/PretradeDataSummaryStruct.h"
 #include "../structs/FeatureExtractorSummaryStruct.h"
-#include "../structs/AuctionBookFeaturesExtractorConfigStruct.h"
+#include "../structs/actionBookFeaturesExtractorConfigStruct.h"
 #include "../structs/ContinuousBookFeaturesExtractorConfigStruct.h"
 #include "../structs/IndexFeaturesExtractorConfigStruct.h"
 
@@ -73,7 +73,7 @@ template
 class Frame<IndexFeaturesExtractorConfigStruct>;
 
 template
-class Frame<AuctionBookFeaturesExtractorConfigStruct>;
+class Frame<actionBookFeaturesExtractorConfigStruct>;
 
 template
 class Frame<ContinuousBookFeaturesExtractorConfigStruct>;
