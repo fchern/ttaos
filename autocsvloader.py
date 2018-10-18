@@ -1,4 +1,4 @@
-#!/home/cchen/anaconda3/bin/python3
+#!/home/$USER/anaconda3/bin/python3
 import pandas as pd
 import getpass
 import os

@@ -1,8 +1,7 @@
 /*
  * Frame.h
  *
- *  Created on: May 1, 2016
- *      Author: cchen
+
  */
 
 #ifndef CONFIGFRAME_H_
@@ -12,7 +11,7 @@
 #include<string>
 #include<vector>
 
-namespace zerg {
+namespace ProjectNamespace {
 
     /**
      *  very light-weight container
@@ -79,6 +78,6 @@ namespace zerg {
             virtual ~Frame();
         };
 
-} /* namespace protoss */
+} /* namespace  */
 
 #endif /* CONFIGFRAME_H_ */
