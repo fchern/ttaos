@@ -7,7 +7,6 @@ import traceback
 import argparse
 import glob
 
-__author__ = 'cchen'
 
 
 def get_default(s):
@@ -148,7 +147,7 @@ def main():
 
 
 if __name__ == "__main__":
-    if getpass.getuser() != 'cchen':
+    if getpass.getuser() != 'fchern':
         raise NameError('operational scripts can only be run by ubuntu')
     try:
         main()
